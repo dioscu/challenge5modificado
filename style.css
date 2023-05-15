@@ -46,15 +46,11 @@ main{
     
 }
 
-::placeholder{color: black;}
+/*::placeholder{color:black;}
     .mensaje:focus{
        
-    }
+    }*/
 
-/*.mensaje:focus{
-    outline: none;
-    
-}*/
 
 .botones{
     display: flex;
