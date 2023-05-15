@@ -30,6 +30,8 @@ main{
     .text-area:focus{
         outline:none ;
     }
+    .mensaje:focus{ color: yellow;}
+    
 .mensaje{
     background: white;
     background-image:url("/Users/dione/Desktop/oracle/CHALLENGER-RETO/FIGURA.jpg");
@@ -38,19 +40,13 @@ main{
     background-repeat: no-repeat;
     border:none;
     border-radius: 32px;
-    color: #0a3871;
+    color: blue;
     margin-left: 200px;
     padding-left: 40px;
     padding-bottom: 350px;
-    position:fixed;
+    position:fixed; 
     
 }
-
-/*::placeholder{color:black;}
-    .mensaje:focus{
-       
-    }*/
-
 
 .botones{
     display: flex;
