@@ -21,31 +21,38 @@ main{
 
 .text-area{
     border: none;
-    color: #0a3871;
+    color:blue;
     margin-top: 90px;
     margin-left: 300px;
     text-transform: lowercase;
 }
-::placeholder{ color: #0a3871;}
+
+::placeholder{color: #0a3871;}
     .text-area:focus{
         outline:none ;
     }
-    .mensaje:focus{ color: yellow;}
     
+
+   
 .mensaje{
     background: white;
     background-image:url("/Users/dione/Desktop/oracle/CHALLENGER-RETO/FIGURA.jpg");
-    /*Con el esta instruccion centro mi imagen y bajarlo*/
+    /*Con  esta instruccion centro mi imagen y bajarlo*/
     background-position: center 300px;
     background-repeat: no-repeat;
     border:none;
     border-radius: 32px;
-    color: blue;
+    color: #0a3871;
     margin-left: 200px;
     padding-left: 40px;
     padding-bottom: 350px;
-    position:fixed; 
-    
+    position:fixed;
+    outline: none;  
+        
+}
+
+.mensaje2{
+    padding-top: 100px;
 }
 
 .botones{
