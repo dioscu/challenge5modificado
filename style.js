@@ -1,6 +1,7 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
-
+const mensaje2 = document.querySelector(".mensaje2");
+const mensaje3 = document.querySelector(".mensaje3");
 
 /*La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
@@ -12,6 +13,8 @@ function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value);
     mensaje.value = textoEncriptado;
     textArea.value="";
+    mensaje2.value="";
+    mensaje3.value="";
     mensaje.style.backgroundImage="none";
 
 }
